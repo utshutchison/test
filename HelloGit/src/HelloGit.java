@@ -2,8 +2,11 @@
 public class HelloGit {
 
 	public static void main(String[] args) {
-		System.out.println("HelloGit");
-// new comment
+		String[] names = {"Bilbo","Frodo"};
+		System.out.println("HelloGitKids");
+		
+		for (String name: names){
+			System.out.println(name);
+		}
 	}
-
 }
